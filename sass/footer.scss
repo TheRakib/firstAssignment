@@ -1,0 +1,24 @@
+.footer{
+    background: black;
+    height: 200px;
+    color: white;
+    position: relative;
+    padding: 20px 50px;
+}
+
+.footer h4{
+    font-size: 20px;
+}
+
+.footer1{
+    position: absolute;
+    width: 50%;
+}
+
+.footer2{
+    width: 50%;
+    right: 0;
+    position: absolute;
+    text-align: right;
+    padding-right: 50px;
+}

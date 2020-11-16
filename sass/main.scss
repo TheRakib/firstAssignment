@@ -1,0 +1,38 @@
+
+.introParagraph{
+    text-align: right;
+    margin-right: 150px;
+    margin-bottom: 100px;
+}
+
+@import "./firstSection.scss";
+@import "./blackBox.scss";
+@import "./secondSection.scss";
+@import "./thirdParagraph.scss";
+@import "./preFooter.scss";
+@import "./footer.scss";
+
+@media only screen and (max-width:640px){
+    .header{
+        background-image: url(../responsiveDesignFinal/pictures/header640.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+        padding:180px;
+    }
+
+}
+
+@media only screen and (min-width: 641px){
+    .container{
+        width: 800px;
+        margin: auto;
+    }
+    .header{
+        background-image: url(../responsiveDesignFinal/pictures/header.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+        padding:260px;
+    }
+}
